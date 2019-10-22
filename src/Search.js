@@ -7,7 +7,7 @@ import { search, update } from "./BooksAPI";
 class Search extends React.Component {
   state = {
     books: [],
-    error: true
+    error: false
   };
 
   searchBooks = searchString => {
